@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 
+class App extends Component<any, any> {
 
-function App() {
-  return (
-    <div className="App">
-        Hello this is SHOPFILLER !!!
-    </div>
-  );
+    render() {
+        return (
+            <div className="App">
+                Hello this is SHOPFILLER !!!
+            </div>
+        )
+    }
 }
 
 export default App;
