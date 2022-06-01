@@ -5,7 +5,8 @@ import ProductItem from "../item/ProductItem";
 import {ProdList} from './ProductList.style';
 
 export type ProdListProps = {
-    category: string
+    category: string,
+    currency: string
 }
 
 class ProductList extends Component <ProdListProps, any> {

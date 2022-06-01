@@ -8,5 +8,9 @@ const store = configureStore({
     }
 })
 
+export const mapStateToProps = (state: any) => ({
+    categoryState: state.category
+})
+
 export const {switchCategory, switchCurrency} = switchSlice.actions
 export default store
